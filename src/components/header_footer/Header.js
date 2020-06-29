@@ -41,7 +41,7 @@ class Header extends Component{
             <AppBar position="fixed" style={{backgroundColor:this.state.headerShow ? '#2f2f2f' : 'transparent' ,boxShadow:'none' , padding:'10px , 0 px'}}>
                 <Toolbar>
                     <div className="header_logo">
-                        <div className="font_right header_logo">the FARIDHASH</div>
+                        <div className="font_right header_logo_font">the FARIDHASH</div>
                         <div className="header_logo-title">IF AT FIRST YOU DON'T SUCCEED, CALL IT <strong>VERSION 1.0.</strong></div>
                     </div>
                     <Iconbutton aria-label="Menu" color="inherit" onClick={()=>this.toggleDrawer(true)}>

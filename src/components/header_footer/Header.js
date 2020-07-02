@@ -42,7 +42,7 @@ class Header extends Component{
                 <Toolbar>
                     <div className="header_logo">
                         <div className="font_right header_logo_font">the FARIDHASH</div>
-                        <div className="header_logo-title">IF AT FIRST YOU DON'T SUCCEED, CALL IT <strong>VERSION 1.0.</strong></div>
+                        <div className="header_logo_title">IF AT FIRST YOU DON'T SUCCEED, CALL IT <strong>VERSION 1.0.</strong></div>
                     </div>
                     <Iconbutton aria-label="Menu" color="inherit" onClick={()=>this.toggleDrawer(true)}>
                         <MenuIcon />

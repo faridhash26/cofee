@@ -11,7 +11,7 @@ const Carousel = ()=>{
         autoplay:true,
         speed:500
     };
-    rerturn (
+    return (
         <div className="carusel_wrapper"
          style={{
              height:`${window.innerHeight}px`,

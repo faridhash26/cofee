@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Mybutton from '../utils/MyButton';
 import Zoom from 'react-reveal/Zoom';
-import { render } from '@testing-library/react';
+
 
 
 
@@ -36,7 +36,7 @@ class Pricing extends Component {
               <div className="pricing_description">${this.state.desc[i]}</div>
               <div className="pricing_buttons">
                 {/* reusable button component. */}
-                <MyButton
+                <Mybutton
                   text="Purchase"
                   bck="#ffa800"
                   color="#ffffff"

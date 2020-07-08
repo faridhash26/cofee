@@ -10,7 +10,7 @@ const Faridfo = ()=>{
                 <div className='vn_wrapper'>
                     <Zoom duration={500}>
                         <div className='vn_item'>
-                            <div className="vn_router">
+                            <div className="vn_outer">
                                 <div className='vn_inner'>
                                     <div className='vn_icon_square bck_red'/>
                                     <div className='vn_icon'

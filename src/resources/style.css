@@ -1,3 +1,4 @@
+
 body {
     padding :0;
     margin: 0;
@@ -76,12 +77,13 @@ carousel
 */
 
 .carusel_wrapper{
-    height: 700px;
+    height: 900px;
     overflow: hidden;
 }
 
-.carousel_image{
-    background-image: cover !important;
+ .carusel_image{
+    background-size: cover !important;
+    background-origin: padding-box !important;
 }
 
 .artist_name{

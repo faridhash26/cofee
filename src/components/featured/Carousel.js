@@ -4,6 +4,9 @@ import Slide_one from '../../resources/images/E1.jpg';
 import Slide_two from '../../resources/images/E2.jpg';
 import Slide_three from '../../resources/images/E3.jpg';
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const Carousel = ()=>{
     const settings ={
         dots:false,
